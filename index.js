@@ -23,7 +23,11 @@ app.get('/products', async (req, res) => {
         const { data, error } = await supabase
             .from('products')
             .select()
-        res.send(data).status(200).end();
+
+        res.json(
+            { code: 200, message: "success", data: data }
+        )
+        res.status(200).end();
     } catch (error) {
         res.status(404).send(error).end()
     }
@@ -36,11 +40,16 @@ app.get('/products/:id', async (req, res) => {
             .from('products')
             .select()
             .is('id', req.params.id)
-        res.send(data).status(200).end();
+
+        res.json(
+            { code: 200, message: "created", data: data }
+        )
+        res.status(200).end();
     } catch (error) {
         res.status(404).send(error).end()
-
     }
+
+
 
 });
 
@@ -53,8 +62,11 @@ app.post('/products', async (req, res) => {
                 description: req.body.description,
                 price: req.body.price,
             })
-        res.send("created!!").status(200).end();
 
+        res.json(
+            { code: 200, message: "created", data_id: req.params.id }
+        )
+        res.status(200).end();
     } catch (error) {
         res.status(404).send(error).end()
     }
@@ -72,7 +84,11 @@ app.put('/products/:id', async (req, res) => {
                 price: req.body.price
             })
             .eq('id', req.params.id)
-        res.send("updated: ", req.params.id).status(200).end();
+
+        res.json(
+            { code: 200, message: "updated", data_id: req.params.id }
+        )
+        res.status(200).end();
 
     } catch (error) {
         res.status(404).send(error).end()
@@ -86,7 +102,10 @@ app.delete('/products/:id', async (req, res) => {
             .from('products')
             .delete()
             .eq('id', req.params.id)
-        res.send("deleted: ", req.params.id).status(200).end();
+        res.json(
+            { code: 200, message: "deleted", data_id: req.params.id }
+        )
+        res.status(200).end();
 
     } catch (error) {
         res.status(404).send(error).end()
