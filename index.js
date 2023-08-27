@@ -12,7 +12,7 @@ dotenv.config();
 // using morgan for logs
 app.use(morgan('combined'));
 
-app.use(bodyParser.urlencoded({ extended: true }));
+app.use(bodyParser.urlencoded({ extended: true, limit: "50mb" }));
 app.use(bodyParser.json());
 app.use(cors());
 
