@@ -1,5 +1,4 @@
 {
-  "type": "module",
   "name": "supabase",
   "version": "0.5.0",
   "description": "supabase db",

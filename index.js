@@ -1,9 +1,9 @@
-import express from 'express';
-import { createClient } from '@supabase/supabase-js'
-import morgan from 'morgan'
-import bodyParser from "body-parser";
-import cors from 'cors';
-import dotenv from "dotenv";
+const express = require('express');
+const { createClient } = require('@supabase/supabase-js')
+const morgan = require('morgan')
+const bodyParser = require("body-parser");
+const cors = require('cors');
+const dotenv = require("dotenv");
 
 const app = express();
 dotenv.config();
@@ -125,4 +125,6 @@ app.listen(3000, () => {
 });
 
 
-module.exports = app
+
+
+exports.app = app
