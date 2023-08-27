@@ -64,7 +64,7 @@ app.post('/products', async (req, res) => {
             })
 
         res.json(
-            { code: 200, message: "created", data_id: req.params.id }
+            { code: 200, message: "created" }
         )
         res.status(200).end();
     } catch (error) {
