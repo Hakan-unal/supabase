@@ -3,10 +3,10 @@
   "name": "supabase",
   "version": "0.5.0",
   "description": "supabase db",
-  "main": "app.js",
+  "main": "index.js",
   "scripts": {
     "start": "vercel dev",
-    "dev": "nodemon ./app.js"
+    "dev": "nodemon ./index.js"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.33.1",
