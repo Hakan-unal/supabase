@@ -25,7 +25,7 @@ app.get('/products', async (req, res) => {
             .select()
 
         res.json(
-            { code: 200, message: "success", data: data }
+            { code: 200, message: "success", data: data, db_error: error }
         )
         res.status(200).end();
     } catch (error) {
@@ -38,11 +38,11 @@ app.get('/products/:id', async (req, res) => {
     try {
         const { data, error } = await supabase
             .from('products')
-            .select()
-            .is('id', req.params.id)
+            .select("*")
+            .eq("id", req.params.id)
 
         res.json(
-            { code: 200, message: "created", data: data }
+            { code: 200, message: "get", data: data }
         )
         res.status(200).end();
     } catch (error) {
