@@ -119,10 +119,9 @@ app.get('/', (req, res) => {
 
 app.post('/chatgpt', async (req, res) => {
     try {
-        const { content } = req.body
 
         const completion = await openai.chat.completions.create({
-            messages: [{ role: 'user', content: content }],
+            messages: [{ role: 'user', content: req.body.content }],
             model: 'gpt-3.5-turbo',
         });
 
