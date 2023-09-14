@@ -135,7 +135,7 @@ app.post('/chatgpt', async (req, res) => {
     }
 });
 
-app.post('/chatgpt-test', async (req, res) => {
+app.get('/chatgpt-test', async (req, res) => {
     try {
 
         const completion = await openai.chat.completions.create({
