@@ -1,9 +1,12 @@
-const express = require('express');
-const morgan = require('morgan')
-const bodyParser = require("body-parser");
-const cors = require('cors');
-const { supabase } = require("./config/supabase")
-const app = express();
+import express from 'express';
+import morgan from 'morgan';
+import bodyParser from 'body-parser';
+import cors from 'cors'
+import { supabase } from './config/supabase.js'
+import { openai } from './config/openai.js'
+
+
+export const app = express();
 
 
 // using morgan for logs
@@ -113,6 +116,25 @@ app.get('/', (req, res) => {
     res.send("Hello I am working my friend Supabase <3");
 });
 
+app.post('/chatgpt', async (req, res) => {
+    try {
+        const { content } = req.body
+
+        const completion = await openai.chat.completions.create({
+            messages: [{ role: 'user', content: content }],
+            model: 'gpt-3.5-turbo',
+        });
+
+        res.json(
+            { code: 200, message: completion }
+        )
+        res.status(200).end();
+    } catch (error) {
+        res.status(404).send(error).end()
+    }
+
+});
+
 app.all("*", (req, res) => res.status(404).send("Page not found"))
 
 
@@ -123,4 +145,3 @@ app.listen(3000, () => {
 
 
 
-exports.app = app
