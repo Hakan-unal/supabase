@@ -2,8 +2,8 @@ const express = require("express")
 const morgan = require("morgan")
 const bodyParser = require("body-parser")
 const cors = require("cors")
-const { supabase } = require("./config/supabase.js")
-const { openai } = require("./config/openai.js")
+const supabase = require("./config/supabase.js")
+const openai = require("./config/openai.js")
 
 
 const app = express();
