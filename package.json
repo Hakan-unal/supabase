@@ -3,7 +3,6 @@
   "version": "0.5.0",
   "description": "supabase db",
   "main": "index.js",
-  "type": "module",
   "scripts": {
     "start": "vercel dev",
     "dev": "nodemon ./index.js"

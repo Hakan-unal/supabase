@@ -1,12 +1,12 @@
-import express from 'express';
-import morgan from 'morgan';
-import bodyParser from 'body-parser';
-import cors from 'cors'
-import { supabase } from './config/supabase.js'
-import { openai } from './config/openai.js'
+const express = require("express")
+const morgan = require("morgan")
+const bodyParser = require("body-parser")
+const cors = require("cors")
+const { supabase } = require("./config/supabase.js")
+const { openai } = require("./config/openai.js")
 
 
-export const app = express();
+const app = express();
 
 
 // using morgan for logs
@@ -142,6 +142,9 @@ app.listen(3000, () => {
     console.log(`> Ready on http://localhost:3000`);
 });
 
+
+
+module.exports = app
 
 
 
