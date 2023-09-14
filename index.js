@@ -133,7 +133,23 @@ app.post('/chatgpt', async (req, res) => {
     } catch (error) {
         res.status(404).send(error).end()
     }
+});
 
+app.post('/chatgpt-test', async (req, res) => {
+    try {
+
+        const completion = await openai.chat.completions.create({
+            messages: [{ role: 'user', content: "hi, where are you from?" }],
+            model: 'gpt-3.5-turbo',
+        });
+
+        res.json(
+            { code: 200, message: completion }
+        )
+        res.status(200).end();
+    } catch (error) {
+        res.status(404).send(error).end()
+    }
 });
 
 app.all("*", (req, res) => res.status(404).send("Page not found"))
