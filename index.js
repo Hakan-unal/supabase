@@ -1,12 +1,9 @@
 const express = require('express');
-const { createClient } = require('@supabase/supabase-js')
 const morgan = require('morgan')
 const bodyParser = require("body-parser");
 const cors = require('cors');
-const dotenv = require("dotenv");
-
+const { supabase } = require("./config/supabase")
 const app = express();
-dotenv.config();
 
 
 // using morgan for logs
@@ -16,7 +13,6 @@ app.use(bodyParser.urlencoded({ extended: true, limit: "50mb" }));
 app.use(bodyParser.json());
 app.use(cors());
 
-const supabase = createClient(process.env.SUPA_URL, process.env.SUPA_KEY);
 
 app.get('/products', async (req, res) => {
     try {
