@@ -4,7 +4,7 @@ const bodyParser = require("body-parser")
 const cors = require("cors")
 const supabase = require("./config/supabase.js")
 const openai = require("./config/openai.js")
-
+const books =require("./staticData/books.json")
 
 const app = express();
 
@@ -150,6 +150,18 @@ app.get('/chatgpt-test', async (req, res) => {
         res.status(404).send(error).end()
     }
 });
+
+app.get('/books',async(req,res)=>{
+    try{
+        res.json(
+            { code: 200, message: "success",data:books }
+        )
+        res.status(200).end();
+    }
+    catch (error) {
+        res.status(404).send(error).end()
+    }
+})
 
 app.all("*", (req, res) => res.status(404).send("Page not found"))
 
