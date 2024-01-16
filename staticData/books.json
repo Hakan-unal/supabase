@@ -1,57 +1,206 @@
-[{
-    "name":"book name",
-    "author":"Test",
-    "shortDescription":"shortDescription",
-    "description":"description",
-    "image":"https://t4.ftcdn.net/jpg/01/43/42/83/360_F_143428338_gcxw3Jcd0tJpkvvb53pfEztwtU9sxsgT.jpg"
-},
-{
-    "name":"book name",
-    "author":"Test",
-    "shortDescription":"shortDescription",
-    "description":"description",
-    "image":"https://t4.ftcdn.net/jpg/01/43/42/83/360_F_143428338_gcxw3Jcd0tJpkvvb53pfEztwtU9sxsgT.jpg"
-},
-{
-    "name":"book name",
-    "author":"Test",
-    "shortDescription":"shortDescription",
-    "description":"description",
-    "image":"https://t4.ftcdn.net/jpg/01/43/42/83/360_F_143428338_gcxw3Jcd0tJpkvvb53pfEztwtU9sxsgT.jpg"
-},
-{
-    "name":"book name",
-    "author":"Test",
-    "shortDescription":"shortDescription",
-    "description":"description",
-    "image":"https://t4.ftcdn.net/jpg/01/43/42/83/360_F_143428338_gcxw3Jcd0tJpkvvb53pfEztwtU9sxsgT.jpg"
-},
-{
-    "name":"book name",
-    "author":"Test",
-    "shortDescription":"shortDescription",
-    "description":"description",
-    "image":"https://t4.ftcdn.net/jpg/01/43/42/83/360_F_143428338_gcxw3Jcd0tJpkvvb53pfEztwtU9sxsgT.jpg"
-},
-{
-    "name":"book name",
-    "author":"Test",
-    "shortDescription":"shortDescription",
-    "description":"description",
-    "image":"https://t4.ftcdn.net/jpg/01/43/42/83/360_F_143428338_gcxw3Jcd0tJpkvvb53pfEztwtU9sxsgT.jpg"
-},
-{
-    "name":"book name",
-    "author":"Test",
-    "shortDescription":"shortDescription",
-    "description":"description",
-    "image":"https://t4.ftcdn.net/jpg/01/43/42/83/360_F_143428338_gcxw3Jcd0tJpkvvb53pfEztwtU9sxsgT.jpg"
-},
-{
-    "name":"book name",
-    "author":"Test",
-    "shortDescription":"shortDescription",
-    "description":"description",
-    "image":"https://t4.ftcdn.net/jpg/01/43/42/83/360_F_143428338_gcxw3Jcd0tJpkvvb53pfEztwtU9sxsgT.jpg"
-}
+[
+    {
+        "name": "Acımak",
+        "author":"Stefan Zweig",
+        "image": "https://img.kitapyurdu.com/v1/getImage/fn:4712345/wh:true/wi:220",
+        "shortDescription":"Birdenbire kapı açıldı ve içeriye serin bir hava cereyanı ile birlikte, çok güzel bir genç kız girdi. Badem biçimi koyu ela gözleri,mat bir teni vardı.",
+        "description": "Birdenbire kapı açıldı ve içeriye serin bir hava cereyanı ile birlikte, çok güzel bir genç kız girdi. Badem biçimi koyu ela gözleri,mat bir teni vardı. Taşrada görülmeyen şık bir biçimde giyinmişti. Ve asıl önemlisi de, bu korkunç monotonluk içinde onun, yepyeni bir çehre olmasıydı. Fakat ne yazık ki güzel kız bize hiç bakmadı…"
+    },
+    {
+        "name": "Yürek Çöküntüsü",
+        "author":"Stefan Zweig",
+        "image": "https://img.kitapyurdu.com/v1/getImage/fn:0/wh:true/wi:220",
+        "shortDescription":"Kitaptaki iki novelladan biri olan Ay Işığı Sokağı’nda olaylar Fransa’nın küçük bir liman kentinde geçer.",
+        "description": "Kitaptaki iki novelladan biri olan Ay Işığı Sokağı’nda olaylar Fransa’nın küçük bir liman kentinde geçer. Kendisini Almanya’ya götürecek treni bekleyen bir yabancı, liman bölgesinde ay ışığının aydınlattığı sokaklarda dolaşırken bir meyhaneye girer. Orada tanıştığı garson kız ve sonradan içeriye gelen bir erkek, beklenmedik bir hikâyenin kahramanları olurlar. Yürek Çöküntüsü ise, eşi ve 19 yaşındaki kızı Erna ile tatile çıkan varlıklı işadamı Salomonsohn’un hikâyesidir. İtalya’ya giden aile bir otele yerleşir. Rahatsızlandığı bir gece kalkıp koridora çıkan Salomonsohn, kızı Erna’nın gizlice odasına döndüğünü görür. Ama ne kızını sorguya çeker ne de karısına söz eder gördüklerinden. İçi içini yer, kızını baştan çıkaran erkeğin oteldeki üç züppeden hangisi olabileceğini düşünüp durur. Kızının karıştığı bu olayı aklından çıkaramayan Salomonsohn kuşkular içinde kıvranırken hem ailesinden hem de hayattan uzaklaşır, hatta bu uzaklaşması nefrete dönüşür. Yürek Çöküntüsü, dile getirilemeyen düşüncelerle, duygularla gitgide zehirlenen Zweig karakterlerinin yer aldığı en etkileyici örneklerden biri."
+    },
+    {
+        "name": "Dünün Dünyası",
+        "author":"Stefan Zweig",
+        "image": "https://img.kitapyurdu.com/v1/getImage/fn:11417063/wh:true/wi:220",
+        "shortDescription":"Dünün Dünyası, Viyanalı yazar Stefan Zweig’ın Avrupa’ya vedasıdır.",
+        "description": "Dünün Dünyası, Viyanalı yazar Stefan Zweig’ın Avrupa’ya vedasıdır. Bütün değerleri ve idealleriyle Avrupa’nın çöküşüne tanıklık eden bir Avrupalı’nın, Stefan Zweig’ın anıları canlanır Dünün Dünyası’nda. Avrupa toplumlarının güvenli burjuva dünyasından savaşa, faşizme ve sürgün yaşamlara savrulan bir neslin yazgısı dile gelir bu anılarda. Viyana’dan Zürih’e, Zürih’ten Salzburg, Londra ve New York’a uzanıp Petropolis’te noktalanan bir sürgün yaşamdır bu yazgı. İnsanı, insanca varoluşu hedef alan yıkımlarıyla 20. yüzyılın bütün bir dünyayı son sığınak yeri olarak avuntusuz sürgüne savurduğu bir yaşam."
+    },
+    {
+        "name": "Bir Kadının Yirmi Dört Saati ",
+        "author":"Stefan Zweig",
+        "image": "https://img.kitapyurdu.com/v1/getImage/fn:1014697/wh:true/wi:220",
+        "shortDescription":"Zweig bu novellası’nda bir kadının yaşamını bütünüyle değiştiren yirmi dört saatlik deneyimini anlatırken, ",
+        "description": "Zweig bu novellası’nda bir kadının yaşamını bütünüyle değiştiren yirmi dört saatlik deneyimini anlatırken, insanda içkin saplantıların ve dayanılmaz arzuların sınırlarında gezinir. Özgürce ve tutkuyla içgüdülerinin peşine takılan bir kadının bu kısa ve yoğun hikâyesi, kadın kalbinin sırlarına ermiş ustanın kaleminde olağanüstü bir anlatıya dönüşür. Yapıtı için mekân olarak muhteşem atmosferiyle Fransız Riviera’sını seçen Zweig, 1920’li yılların sonlarında Avrupa’nın “kibar” tabakasının ikiyüzlü ahlak anlayışına yönelik eleştirel tavrıyla dikkat çeker."
+    },
+    {
+        "name": "Yarının Tarihi",
+        "author":"Stefan Zweig",
+        "image": "https://img.kitapyurdu.com/v1/getImage/fn:11306838/wh:true/wi:220",
+        "shortDescription":"Stefan Zweig, yaşamı boyunca yapıtlarıyla hep insanı yücelten, bireyin kutsallığını ve dokunulmazlığını en büyük değer sayan bir hümanizmin öncülüğünü yaptı.",
+        "description": "Stefan Zweig, yaşamı boyunca yapıtlarıyla hep insanı yücelten, bireyin kutsallığını ve dokunulmazlığını en büyük değer sayan bir hümanizmin öncülüğünü yaptı. Onun hümanizmi, sınırların, ulusların, ırkların üzerinde kalıyordu. Yarının Tarihive Rotterdamlı Erasmus'ta yer alan denemelerinde, Stefan Zweig, bu görüş ve inanışlarını paylaşan, yaşadıkları döneme damgasını vurmuş, insani ve toplumsal değerler açısından yakın olduğu, özdeşleştiği kişileri irdelemektedir. Ölümünden önce kaleme aldığı son denemesi `Montaigne' ve ününün doruğundayken yazdığı deneme alanındaki başyapıtı sayılan, bağnazlığın her türlüsüne karşı savaş ilanı anlamını taşıyan `Rotterdamlı Erasmus', bu kitapta yer alan son iki seçkidir. Stefan Zweig, Almanya'da Nazi egemenliğinin başladığı, özgür düşüncenin, mantığın sesinin kin ve ateşle susturulduğu bir dönemde zorbalığın karşısına düşünceyi, kitle çılgınlıklarının karşısına bireyin insan olarak kutsallığını çıkarıp savunmak istemiştir."
+    },
+    {
+        "name": "Kendileri ile Savaşanlar: Kleist, Nietzsche, Hölderlin ",
+        "author":"Stefan Zweig",
+        "image": "https://img.kitapyurdu.com/v1/getImage/fn:39231/wh:true/wi:220",
+        "shortDescription":"Gözleri kamaştıran bir ruh yolculuğunun, tehlikeli ve ölümcül serüvencisi Stefan Zweig'ın kaleminden;",
+        "description": "Gözleri kamaştıran bir ruh yolculuğunun, tehlikeli ve ölümcül serüvencisi Stefan Zweig'ın kaleminden; kendini tanıma hırsıyla ruhunu savaş alanına çeviren üç yurtsuzun öyküsüdür bu kitap:Kleist…Olağanüstüne inanmadan olağanüstünde yaşayandı Kleist.Dünyayı bir trajedi olarak gördü, kendi dünyasından trajediler yarattı ve en sonunda hayatı emsalsiz bir trajediye dönüştü.Sakin olmak, tutkular karşısında sakin olmak diye inleyip durması boşunaydı.Çünkü onda her şeyden fazlasıyla vardı. Fazla duygulu ama fazla akıllı, fazla tutkulu ama fazla ahlâklı, fazla isyankâr ama fazla disiplinliydi. Bu tezatları, O'nun hayatına düğüm üstüne düğüm attı."
+    },
+    {
+        "name": "Üç Büyük Usta: Balzac, Dickens, Dostoyevski",
+        "author":"Stefan Zweig",
+        "image": "https://img.kitapyurdu.com/v1/getImage/fn:267294/wh:true/wi:220",
+        "shortDescription":"Dünya Fikir Mimarları Stefan Zweig, üç büyük yazarın yaşam öyküleri üzerinden, okurlarını dünya tarihine, edebi dehanın sınırlarına bir yolculuğa çıkarıyor.",
+        "description": "Dünya Fikir Mimarları Stefan Zweig, üç büyük yazarın yaşam öyküleri üzerinden, okurlarını dünya tarihine, edebi dehanın sınırlarına bir yolculuğa çıkarıyor. ‘Toplumun romanının yazan’ Balzac; ‘ailenin romanını yazan’ Dickens ve ‘bireyin romanını yazan’ Dostoyevski, Zweig’ın eserinde bir arada. ''Üç Büyük Usta'', roman sanatının bu üç büyük yazarı üzerinden bir dönem portresi veriyor."
+    },
+    {
+        "name": "Kendi Hayatının Şiirini Yazanlar: Casanova, Stendhal, Tolstoy",
+        "author":"Stefan Zweig",
+        "image": "https://img.kitapyurdu.com/v1/getImage/fn:51509/wh:true/wi:220",
+        "shortDescription":"Stefan Zweig Dünya Fikir Mimarları dizisinde yer alan Kendi Hayatının Şiirini Yazanlar kitabında, pek çok açıdan birbirinden farklı üç yazarın,",
+        "description": "Stefan Zweig Dünya Fikir Mimarları dizisinde yer alan Kendi Hayatının Şiirini Yazanlar kitabında, pek çok açıdan birbirinden farklı üç yazarın, Casanova, Stendhal ve Tolstoy'un hikayesini anlatıyor; bu üç ayrıksı ismin yaşamlarına, biyografik, duygusal, felsefi ve insani bir sondaj yapıyor. İlk bakışta Casanova gibi rahat, ahlak kurallarına uymayan bir çapkınla, yaptığı ve yapmadığı her davranışın kökenini kendi Ben'inde arayan bir yazar olan Stendhal ve ahlak savunucusu, gerçek bir sanatçı olan Tolstoy'un yaşam öykülerini aynı kitapta bulmak okuru şaşırtsa"
+    },
+    {
+        "name": "Lyon'da Düğün",
+        "author":"Stefan Zweig",
+        "image": "https://img.kitapyurdu.com/v1/getImage/fn:11228384/wh:true/wi:220",
+        "shortDescription":"1942 yılında, yani İkinci Dünya Savaşı'nın tam ortasında, Brezilya'nın Petropolis kentinde karısıyla birlikte intihar eden,",
+        "description": "1942 yılında, yani İkinci Dünya Savaşı'nın tam ortasında, Brezilya'nın Petropolis kentinde karısıyla birlikte intihar eden, ama insanlara yarın'ı beklemeleri gerektiğini söyleyerek bir yandan da umudu savunan Avusturyalı yazar Stefan Zweig, kuşkusuz çağımızın en büyük hümanistlerinden biri. Büyük bir gerilim ustası olan Stefan Zweig'ı Türkiyeli okurlar çok iyi tanırlar. Can Yayınları arasında ondan pek çok kitap yayımladık. Dünün Dünyası, Yarının Tarihi, Yıldızın Parladığı Anlar, Bir Politikacının Portresi, Günlükler, Satranç gibi. Lyon'da Düğün, 1908 ile 1920 yılları arasında dergilerde yayımlanmış, çok sonra kitap olarak çıkmış"
+    },
+  
+    {
+        "name": "Karışık Duygular ",
+        "author":"Stefan Zweig",
+        "image": "https://img.kitapyurdu.com/v1/getImage/fn:184141/wh:true/wi:220",
+        "shortDescription":"Karışık Duygular, kalp ile zihin arasındaki ezelî çatışmanın yol açtığı kısa fakat karmaşık bir labirent.",
+        "description": "Karışık Duygular, kalp ile zihin arasındaki ezelî çatışmanın yol açtığı kısa fakat karmaşık bir labirent. Stefan Zweig, dünyanın siyah ve beyazlardan oluşmadığını, o parlak biçemiyle bir kez daha hatırlatıyor okurlarına."
+    },
+    {
+        "name": "Satranç",
+        "author":"Stefan Zweig",
+        "image": "https://img.kitapyurdu.com/v1/getImage/fn:11468326/wh:true/wi:220",
+        "shortDescription":"New York'tan Buenos Aires'e giden bir yolcu gemisinde yolcular arasında bulunan bir milyoner, dünya satranç şampiyonu Mirko Czentovic'e,",
+        "description": "New York'tan Buenos Aires'e giden bir yolcu gemisinde yolcular arasında bulunan bir milyoner, dünya satranç şampiyonu Mirko Czentovic'e, ücreti karşılığında, bir parti satranç oynamayı teklif eder. İkisinin oyununu izleyen Avusturyalı bir göçmen, Dr. B., oyun sırasında kendini tutamayıp onlara karışınca şampiyonla karşılaşması önerilir kendisine. Gestapo tarafından bir otel odasına kapatılan ve uzunca bir süreyi bu odada, tek başına ve oyalanacak hiçbir şeyi olmadan geçiren, yalnızca sorgulama için odadan çıkarılan Dr. B., bir gün rastlantıyla eline geçirdiği bir satranç kitabı sayesinde bu oyunun inceliklerini öğrenmiştir."
+    },
+    {
+        "name": "Günlükler",
+        "author":"Stefan Zweig",
+        "image": "https://img.kitapyurdu.com/v1/getImage/fn:11441826/wh:true/wi:220",
+        "shortDescription":"Yüzyılımızın önde gelen düşünür ve yazarlarından Stefan Zweig'ın Türkçede ilk kez yayımlanan Günlükler'i, Birinci ve İkinci Dünya Savaşlarının",
+        "description": "Yüzyılımızın önde gelen düşünür ve yazarlarından Stefan Zweig'ın Türkçede ilk kez yayımlanan Günlükler'i, Birinci ve İkinci Dünya Savaşlarının acılarına tanık olmuş, bu acıları derinden yaşamış bu duyarlı insanın, yaşadığı dönemle ilgili düşüncelerini, iç dünyasını açıkça ortaya koyan birer belge niteliğinde."
+    },
+    {
+        "name": "Değişim Rüzgârı",
+        "author":"Stefan Zweig",
+        "image": "https://img.kitapyurdu.com/v1/getImage/fn:11451409/wh:true/wi:220",
+        "shortDescription":"Birinci Dünya Savaşını izleyen yıllarda, Avusturya'nın bir köyündeki postanede memur olarak iş bulan Christine Hoflehner'in önünde,",
+        "description": "Birinci Dünya Savaşını izleyen yıllarda, Avusturya'nın bir köyündeki postanede memur olarak iş bulan Christine Hoflehner'in önünde, renksiz ve yoksulluk dolu bir yaşam uzanmaktadır. Ancak Amerika'daki akrabalarından aldığı bir mektup tekdüze yaşamından çekip alır onu. Çalışmayı ve yoksulluğu tanımayan bir dünyada, lüks bir otelde tatil geçirmeye davet edilmektedir. Otelde önceleri soylu ve varlıklı biri sanılsa da sonradan asıl kimliği ortaya çıkar ve değişim rüzgarları Christine'yi alıp yeniden artık katlanamadığı eski tekdüze, küçük, yoksul dünyasına sürükler. Ne var ki, bu eski dünyasında tanıştığı"
+    },
+    {
+        "name": "Calvin'e Karşı Castellio ya da Köleliğe Karşı Özgür Düşünce",
+        "author":"Stefan Zweig",
+        "image": "https://img.kitapyurdu.com/v1/getImage/fn:116020/wh:true/wi:220",
+        "shortDescription":"Sevgili Zweig, uzun zamandır gerek konu,gerekse konunun ele alınışı itibariyle Castellio kadar hararetle ve heyecanla okuduğum kitap olmadı.",
+        "description": "Sevgili Zweig, uzun zamandır gerek konu,gerekse konunun ele alınışı itibariyle Castellio kadar hararetle ve heyecanla okuduğum kitap olmadı. Bu bir sansasyon, çok heyecanlı, günün bütün nefreti ve sempatisini tarihsel bir olay üzerinde toplayarak çok şey öğretiyor. Son derece umutsuz, aynı zamanda umut dolu, Castellio'yu tanımıyordum, tanıştığım için gerçekten sevinçliyim ve geçmiş zamanda yeni bir dostluk ilişkisi kurdum. Bunu kitabınıza, bunu size borçluyum."
+    },
+    {
+        "name": "Fouche, Bir Politikacının Portresi",
+        "author":"Stefan Zweig",
+        "image": "https://img.kitapyurdu.com/v1/getImage/fn:11425913/wh:true/wi:220",
+        "shortDescription":"Fouché, aklını ve iradesini kontrol edebilen, Makyavelist, gözükara, her türlü etik ilkeden yoksun, değişen ideolojilere aynı hızla uyum gösteren",
+        "description": "Fouché, aklını ve iradesini kontrol edebilen, Makyavelist, gözükara, her türlü etik ilkeden yoksun, değişen ideolojilere aynı hızla uyum gösteren, iktidar zevkini maskeleyebilen bir politikacı tipidir. Zweig, Fouché’nin şahsında sadece bir politikacıyı değil, çıkar ve amaçlarını her şeyin üstünde tutan, bu uğurda önündeki her şeyi ve herkesi ezip geçen, kendini, sadece kendini düşünen insanı anlatmaktadır aslında."
+    },
+    {
+        "name": "Tehlikeli Merhamet ",
+        "author":"Stefan Zweig",
+        "image": "https://img.kitapyurdu.com/v1/getImage/fn:165309/wh:true/wi:220",
+        "shortDescription":"Uzun zamandan beri gelmesi beklenen fırtına patlamak üzereydi. Birbirlerine çarpan muhteşem sandıkları hatırlatan bir gürültüyle beraber aydınlanan bulutlar",
+        "description": "Uzun zamandan beri gelmesi beklenen fırtına patlamak üzereydi. Birbirlerine çarpan muhteşem sandıkları hatırlatan bir gürültüyle beraber aydınlanan bulutlar, endişeli bir tavırla ürperen ağaçların tepesinde toplanıyorlardı.Rutubetli havanın yanık bir kokusu vardı.Şehrin görünüşü de tamamen değişmişti; dükkanların tabelaları tıpkı bir kabustaki gibi sallanıyor ve takırdıyor, kapılar çarpıyor, bacalar inlemeye benzeyen sesler çıkarıyordu."
+    },
+    {
+        "name": "Amok Koşucusu",
+        "author":"Stefan Zweig",
+        "image": "https://img.kitapyurdu.com/v1/getImage/fn:11213850/wh:true/wi:220",
+        "shortDescription":"İntihar, Stefan Zweig'ın zihnini gençlik yıllarından beri meşgul eden bir kavramdı.",
+        "description": "İntihar, Stefan Zweig'ın zihnini gençlik yıllarından beri meşgul eden bir kavramdı. Yaşamının bir anlamı kalmadığını anladığı anda yaşamına kendi eliyle son verebileceğini daha üniversite yıllarında söylemişti. İlk evliliği sırasında karısı Friederike'yi kendisiyle birlikte intihar etmesi için zorlayan, sonra bu düşüncesinden vazgeçen Stefan Zweig, yıllar sonra, İkinci Dünya Savaşı sırasında, ikinci karısıyla birlikte yaşamına son verdi. Yazar, önceki intihar girişimlerinden vazgeçmiş olsa da korkularını, romanlarındaki ve öykülerindeki kahramanlara yaşatıyor."
+    },
+    {
+        "name": "Amok",
+        "author":"Stefan Zweig",
+        "image": "https://img.kitapyurdu.com/v1/getImage/fn:6955433/wh:true/wi:220",
+        "shortDescription":"Amok is a novella by the Austrian author Stefan Zweig. First printed in the newspaper Neue Freie Presse in 1922",
+        "description": "Amok is a novella by the Austrian author Stefan Zweig. First printed in the newspaper Neue Freie Presse in 1922, Amok appeared shortly afterwards in the collection of novellas Amok: Novellas of a Passion. Zweig was fascinated and influenced by Sigmund Freud’s work. Like other works by Zweig, Amok therefore has clear psychoanalytical elements. It deals with an extreme obsession, which leads the protagonist to sacrifice his professional and private life and, eventually, to commit suicide."
+    },
+    {
+        "name": "Balzac, Bir Yaşam Öyküsü ",
+        "author":"Stefan Zweig",
+        "image": "https://img.kitapyurdu.com/v1/getImage/fn:11348524/wh:true/wi:220",
+        "shortDescription":"Belki de ilk gençlik dönemlerimden bu yana beni meşgul eden büyük bir eser yazmayı denerim —Balzac hakkında kalın bir kitap",
+        "description": "Belki de ilk gençlik dönemlerimden bu yana beni meşgul eden büyük bir eser yazmayı denerim —Balzac hakkında kalın bir kitap, bir yaşamöyküsü ve eleştiri. Muhtemelen üç, hatta dört yıl gerektireceğini biliyorum. Ama geriye kalıcı bir şey bırakmak istiyorum, on yıllarca etkisini yitirmeyecek bir eser ... Otuz yıldır Balzac okuyorum, hayranlığımdan hiçbir şey kaybetmeden tekrar tekrar okuyorum."
+    },
+    {
+        "name": "Freud ve Öğretisi ",
+        "author":"Stefan Zweig",
+        "image": "https://img.kitapyurdu.com/v1/getImage/fn:4564741/wh:true/wi:220",
+        "shortDescription":"19. yüzyıl ‘’ ahlakını ‘’ tartışarak, bu ahlakın nasıl bir ‘’zihni durum’’ yarattığını belirterek Freud’u bize verir.",
+        "description": "19. yüzyıl ‘’ ahlakını ‘’ tartışarak, bu ahlakın nasıl bir ‘’zihni durum’’ yarattığını belirterek Freud’u bize verir. Böylece Freud’un bugün bile neden vazgeçilmez olduğunu sezmeye başlarız. Ama Zweig’in bütün sorunu bu değildir tabii... Aynı zamanda yanılgıların insanı olarak da Fred’u bize verir. İşte bu noktaya geldiğimiz de Freud bir ‘’imaj’’ olmaktan çıkar zihnimizde, somutlaşır, gerçeklik kazanır..."
+    },
+    {
+        "name": "Yakıcı Sır ",
+        "author":"Stefan Zweig",
+        "image": "https://img.kitapyurdu.com/v1/getImage/fn:8588883/wh:true/wi:220",
+        "shortDescription":"Çocuk olmak korkunç bir şey, merak dolu olmak fakat kimseye bir şey soramamak, sanki aptal veya yararsız bir şeymişsin gibi yetişkinlerin",
+        "description": "Çocuk olmak korkunç bir şey, merak dolu olmak fakat kimseye bir şey soramamak, sanki aptal veya yararsız bir şeymişsin gibi yetişkinlerin karşısında hep gülünç duruma düşmek… Ama ben bu sırrı öğreneceğim, hissediyorum, çok kısa zamanda öğreneceğim."
+    },
+    {
+        "name": "Ruh Yoluyla Tedavi ",
+        "author":"Stefan Zweig",
+        "image": "https://img.kitapyurdu.com/v1/getImage/fn:6514852/wh:true/wi:220",
+        "shortDescription":"Sözlerin, konuşulanların nasıl bir mucize yaratacağını, dudağın boşluğa doğru yaptığı büyülü titreşimin sayısız dünyalar kurup sayısız dünyaları",
+        "description": "Sözlerin, konuşulanların nasıl bir mucize yaratacağını, dudağın boşluğa doğru yaptığı büyülü titreşimin sayısız dünyalar kurup sayısız dünyaları yıktığını kim bilir? Modern bilimsel tıp, hastalığı insanın bütününe değil, organlarından birine ilişkin bir şeymiş gibi algılar. Oysa hekimlik sanatının mucizeleri, beden ile ruh arasındaki yüksek ilişkilere dayanır. Ruh Yoluyla Tedavi’nin sırrı, insanın varlığının bütününü hastalığın bütününe karşı harekete geçirmesi çağrısında gizlidir."
+    },
+    {
+        "name": "Amerigo",
+        "author":"Stefan Zweig",
+        "image": "https://img.kitapyurdu.com/v1/getImage/fn:11228356/wh:true/wi:220",
+        "shortDescription":"Hem düşsel hem de tarihsel karakterler üstüne yorumlarıyla tanıdığımız Stefan Zweig’ı derin karakter incelemelerine yönelten",
+        "description": "Hem düşsel hem de tarihsel karakterler üstüne yorumlarıyla tanıdığımız Stefan Zweig’ı derin karakter incelemelerine yönelten, psikolojiye ve Freud’un öğretisine duyduğu ilgidir. Beş tarihsel kişiliğin portrelerini içeren Yıldızın Parladığı Anlar, Fransız Devrimi’nde bir politikacının portresi niteliğindeki Joseph Fouché’yle birlikte Amerigo da Zweig’ın nesnellikten çok sezgiye dayanan yaşamöykülerinin en başarılarından biridir. "
+    },
+    {
+        "name": "Buluşmalar",
+        "author":"Stefan Zweig",
+        "image": "https://img.kitapyurdu.com/v1/getImage/fn:9547464/wh:true/wi:220",
+        "shortDescription":"Dostlarım bana yıllardır, çeşitli konular üzerine düşüncelerimi kaleme aldığım denemeleri bir kitapta toplamamı",
+        "description": "Dostlarım bana yıllardır, çeşitli konular üzerine düşüncelerimi kaleme aldığım denemeleri bir kitapta toplamamı ısrarla söyleyip duruyordu.Bu yazılar gençliğimde beni yüreklendirmiş olayların, mutluluğun, kazancın ve deneyimlerin birikimidir. İnsanlarla, kentlerle, kitaplarla, resimlerle ve müzikle buluşmalardan kalanlardır. Kimi zaman kişiyi coşturan, kimi zaman ise aklını başına getiren anlardır."
+    },
+    {
+        "name": "Bir Kadının Yaşamından 24 Saat ve Bir Yüreğin Ölümü ",
+        "author":"Stefan Zweig",
+        "image": "https://img.kitapyurdu.com/v1/getImage/fn:11441040/wh:true/wi:220",
+        "shortDescription":"Her koşul altında iç özgürlüğünü koruma uğrunda çaba harcamak, kimsenin efendisi olmaya kalkışmamak",
+        "description": "Her koşul altında iç özgürlüğünü koruma uğrunda çaba harcamak, kimsenin efendisi olmaya kalkışmamak, fakat kimseye de boyun eğmemek; hiçbir sav ya da düşünceye baştan düşmanca yaklaşmamak, ama buyurgan nitelik almaya başladığı anda her savın ya da düşüncenin karşısına dikilmek. Bütün bunlar gerek Erasmus’un, gerek Zweig’ın kişiliklerinde birbiriyle bütünüyle örtüşen niteliklerdir."
+    },
+    {
+        "name": "Clarissa",
+        "image": "https://img.kitapyurdu.com/v1/getImage/fn:11506261/wh:true/wi:220",
+        "author":"Stefan Zweig",
+        "shortDescription":"Zweig hayatının son dönemlerinde başladığı, taslağı 1981’de gün ışığına çıkarılan ve yayıncısı tarafından tamamlanan Clarissa’da",
+        "description": "Zweig hayatının son dönemlerinde başladığı, taslağı 1981’de gün ışığına çıkarılan ve yayıncısı tarafından tamamlanan Clarissa’da, 1902 yılından Birinci Dünya Savaşı’nın patlak vermesine kadar geçen dönemde, dünyanın halini genç bir kadının gözünden anlatır. Avusturyalı bir subayın kızı olan Clarissa bir manastır okulunda büyümüş, eğitimini tamamladıktan sonra Viyanalı ünlü bir sinir hastalıkları uzmanının yanında çalışmaya başlamıştır."
+    },
+    {
+        "name": "Gömülü Şamdan",
+        "author":"Stefan Zweig",
+        "image": "https://img.kitapyurdu.com/v1/getImage/fn:11505247/wh:true/wi:220",
+        "shortDescription":"Süleyman’ın tapınağından çıkan, Yahudilerin kutsal emaneti yedi kollu şamdanın 455 yılında Roma’yı yağmalayan Vandalların eline geçmesi",
+        "description": "Süleyman’ın tapınağından çıkan, Yahudilerin kutsal emaneti yedi kollu şamdanın 455 yılında Roma’yı yağmalayan Vandalların eline geçmesi, kentin Yahudi cemaatinde şok etkisi yaratır. Cemaatin yaşlıları, olan biteni gelecek kuşaklara aktarması için o sırada yedi yaşında olan Benjamin’i de yanlarına alarak kutsal Menora’yı denizaşırı yolculuğuna uğurlarlar. Seksen yıl sonra aynı Benjamin, şamdanı Yahudilere geri vermesi için İmparator İustinianos’a yalvarmak üzere Bizans’a gider. İustinianos’un Kudüs’teki bir Hıristiyan kilisesine gönderdiği şamdan, orada kaybolmuştur."
+    },
+    {
+        "name": "Korku",
+        "author":"Stefan Zweig",
+        "image": "https://img.kitapyurdu.com/v1/getImage/fn:5158621/wh:true/wi:220",
+        "shortDescription":"Burjuva sınıfının bütün imkanlarına sahip ama hayatla barışamayan güzel ve alımlı İrene, genç bir müzisyenle tanışır.",
+        "description": "Burjuva sınıfının bütün imkanlarına sahip ama hayatla barışamayan güzel ve alımlı İrene, genç bir müzisyenle tanışır. Evliliğinde mutludur. Ama karşı konulamaz biçimde müzisyeni hayatına dahil eder. Heyecan, tutku, beğenilme arzusu benliğini ele geçirir. Her şey yolunda giderken korkuyla tanışır İrene. Tanımadığı bir kadının tehdit ve şantajla üzerine saldığı bu yabancı duygu hayatını altüst eder. Kaçtıkça daha da bataklığa saplanır. Halbuki hiç bir kaçış, cezadan daha ağır değildir. "
+    },
+    {
+        "name": "Olağanüstü Bir Gece",
+        "author":"Stefan Zweig",
+        "image": "https://img.kitapyurdu.com/v1/getImage/fn:6340674/wh:true/wi:220",
+        "shortDescription":"Ravaruska’da çatışmada hayatını kaybeden Friedrich Michael von R…’nin başından geçen tuhaf olaylar dizgesini içeriyor",
+        "description": "Ravaruska’da çatışmada hayatını kaybeden Friedrich Michael von R…’nin başından geçen tuhaf olaylar dizgesini içeriyor ‘Olağanüstü Bir Gece’.Stefan  Zweig’in psikolojik tahlilleriyle kılcal damarlarına ineceğiniz kısa öykü, zihin akışları bezeli. Hayatta her şeye sahip birinin, nelere muhtaç olduğunu fark ettiriyor. Kitap, sadece tek bir gecede yaşanan büyülü olaylarla benliğin değişebildiğini haykırıyor."
+    }
 ]
